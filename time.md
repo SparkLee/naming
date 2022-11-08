@@ -33,3 +33,14 @@
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
+
+## 过期时间/日期
+
+| 开源软件名称 | 英文名 | 描述 | 参考来源 |
+| --- | --- | --- | --- |
+| 微信开放平台 | expires_in | 在多长时间内过期，如：7200秒，即2小时，是一段时间而非时间戳。 | [access_token 接口调用凭证超时时间，单位（秒）](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/WeChat_Login/Development_Guide.html) |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
