@@ -43,6 +43,17 @@
 |  |  |  |  |
 |  |  |  |  |
 
+## 集群成员查看
+
+| 开源软件名称 | 查看命令 | 描述 | 参考来源 |
+| --- | --- | --- | --- |
+| k8s | kubectl get nodes | 查看k8s集群节点列表 | [Viewing Pods and Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/) |
+| docker swarm | docker node ls | 查看docker swarm节点列表 | [docker node ls](https://docs.docker.com/engine/reference/commandline/node_ls/) |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
 ## 数据分片
 
 > 将数据分散在不同的机器上，以解决单点计算和存储的瓶颈问题。
