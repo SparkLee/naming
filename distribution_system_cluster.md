@@ -53,7 +53,8 @@
 | redis cluster | sentinel master/replicas/sentinels mymaster | 查看redis sentinel主/从/哨兵节点列表 | [sentinel master mymaster](https://redis.io/docs/management/sentinel/#asking-sentinel-about-the-state-of-a-master) |
 | cassandra | describe cluster | 查看cassandra集群名称/分片器等 | [DESCRIBE CLUSTER](https://cassandra.apache.org/doc/4.1/cassandra/tools/cqlsh.html#describe) |
 | cassandra | nodetool status | 查看cassandra集群节点列表等信息 | [Cluster Status](https://cassandra.apache.org/doc/4.1/cassandra/troubleshooting/use_nodetool.html#nodetool-status) |
-|  |  |  |  |
+| kafka | ./zookeeper-shell.sh localhost:2181 ls /brokers/ids | 查看kafka集群的broker列表 | [How to list all available Kafka brokers in a cluster?](https://stackoverflow.com/questions/40146921/how-to-list-all-available-kafka-brokers-in-a-cluster) |
+| rocketmq | ./mqadmin clusterList -n namesrv:9876 | 查看rocketmq集群的broker列表 | [Admin Tool](https://rocketmq.apache.org/docs/4.x/deployment/16admintool#%E9%9B%86%E7%BE%A4%E7%9B%B8%E5%85%B3) |
 |  |  |  |  |
 
 ## 数据分片
