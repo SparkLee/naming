@@ -43,14 +43,16 @@
 |  |  |  |  |
 |  |  |  |  |
 
-## 集群成员查看
+## 集群节点列表查看
 
 | 开源软件名称 | 查看命令 | 描述 | 参考来源 |
 | --- | --- | --- | --- |
 | k8s | kubectl get nodes | 查看k8s集群节点列表 | [Viewing Pods and Nodes](https://kubernetes.io/docs/tutorials/kubernetes-basics/explore/explore-intro/) |
 | docker swarm | docker node ls | 查看docker swarm节点列表 | [docker node ls](https://docs.docker.com/engine/reference/commandline/node_ls/) |
-|  |  |  |  |
-|  |  |  |  |
+| redis sentinel | cluster nodes | 查看redis集群节点列表 | [CLUSTER NODES](https://redis.io/commands/cluster-nodes/) |
+| redis cluster | sentinel master/replicas/sentinels mymaster | 查看redis sentinel主/从/哨兵节点列表 | [sentinel master mymaster](https://redis.io/docs/management/sentinel/#asking-sentinel-about-the-state-of-a-master) |
+| cassandra | describe cluster | 查看cassandra集群名称/分片器等 | [DESCRIBE CLUSTER](https://cassandra.apache.org/doc/4.1/cassandra/tools/cqlsh.html#describe) |
+| cassandra | nodetool status | 查看cassandra集群节点列表等信息 | [Cluster Status](https://cassandra.apache.org/doc/4.1/cassandra/troubleshooting/use_nodetool.html#nodetool-status) |
 |  |  |  |  |
 |  |  |  |  |
 
@@ -70,6 +72,7 @@
 - [一致性哈希算法（consistent hashing）](https://zhuanlan.zhihu.com/p/129049724)
 - [Redis分片机制](https://zhuanlan.zhihu.com/p/367227866)
 - [Cassandra内部原理和底层实现 经典的gossip通讯协议](https://www.bilibili.com/video/BV1Ys411g7ij)
+- [Cassandra一致性哈希分片](https://cassandra.apache.org/doc/4.1/cassandra/architecture/dynamo.html#consistent-hashing-using-a-token-ring)
 
 ## 数据压缩（Compaction）
 
